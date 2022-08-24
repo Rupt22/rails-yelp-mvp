@@ -7,6 +7,10 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+
+gem "simple_form", github: "heartcombo/simple_form"
+
+
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
